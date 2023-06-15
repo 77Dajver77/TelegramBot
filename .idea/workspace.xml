@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd4c6316-8ceb-4a00-84d4-283ac23cecd7" name="Changes" comment="ТелеграмБот 4 часть, рабочий вариант, добавили кнопки.">
+    <list default="true" id="cd4c6316-8ceb-4a00-84d4-283ac23cecd7" name="Changes" comment="ТелеграмБот 6 часть, рабочий вариант, добавили кнопки и подписали их.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/16868144011905051801831696058059.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/16868144016217344125248785221091.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/16868144017527252328965786798938.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/AppBotCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/BotCommonCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/1686800266106-1773974674687648466.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/1686800266524-5122755487203617554.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/16868002666648896075850728091429.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PhotoMessageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PhotoMessageUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -112,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686800332904</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ТелеграмБот 6 часть, рабочий вариант, добавили кнопки и подписали их.">
+      <created>1686803814071</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686803814071</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +147,7 @@
     <MESSAGE value="ТелеграмБот 2 часть, рабочий вариант" />
     <MESSAGE value="ТелеграмБот 3 часть, рабочий вариант" />
     <MESSAGE value="ТелеграмБот 4 часть, рабочий вариант, добавили кнопки." />
-    <option name="LAST_COMMIT_MESSAGE" value="ТелеграмБот 4 часть, рабочий вариант, добавили кнопки." />
+    <MESSAGE value="ТелеграмБот 6 часть, рабочий вариант, добавили кнопки и подписали их." />
+    <option name="LAST_COMMIT_MESSAGE" value="ТелеграмБот 6 часть, рабочий вариант, добавили кнопки и подписали их." />
   </component>
 </project>

@@ -1,10 +1,7 @@
 package utils;
 
 import function.FilterOperation;
-import org.telegram.telegrambots.meta.api.methods.GetFile;
 import org.telegram.telegrambots.meta.api.objects.File;
-import org.telegram.telegrambots.meta.api.objects.PhotoSize;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import java.awt.image.BufferedImage;
 import java.io.FileOutputStream;
