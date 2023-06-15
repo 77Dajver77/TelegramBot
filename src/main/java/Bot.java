@@ -7,6 +7,9 @@ import org.telegram.telegrambots.meta.api.objects.InputFile;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.PhotoSize;
 import org.telegram.telegrambots.meta.api.objects.Update;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import utils.ImageUtils;
 import utils.PhotoMessageUtils;
@@ -61,6 +64,20 @@ public class Bot extends TelegramLongPollingBot {
     }
     private SendPhoto preparePhotoMessage(String LocalPath, String chatId) {
         SendPhoto sendPhoto = new SendPhoto();
+        ReplyKeyboardMarkup replyKeyboardMarkup = new ReplyKeyboardMarkup();
+        ArrayList<KeyboardRow> keyboardRows = new ArrayList<>();
+
+        for (int i=0; i<3; i++){
+            KeyboardRow row = new KeyboardRow();
+            for (int j=0; j<3; j++){
+                KeyboardButton keyboardButton = new KeyboardButton("button" + (i*3+j+1));
+                row.add(keyboardButton);
+            }
+            keyboardRows.add(row);
+        }
+        replyKeyboardMarkup.setKeyboard(keyboardRows);
+        replyKeyboardMarkup.setOneTimeKeyboard(true);
+        sendPhoto.setReplyMarkup(replyKeyboardMarkup);
         sendPhoto.setChatId(chatId);
         InputFile newFile = new InputFile();
         newFile.setMedia(new File(LocalPath));
