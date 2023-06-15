@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd4c6316-8ceb-4a00-84d4-283ac23cecd7" name="Changes" comment="ТелеграмБот 1 часть, рабочий вариант">
-      <change afterPath="$PROJECT_DIR$/image.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/received_image.jpeg" afterDir="false" />
+    <list default="true" id="cd4c6316-8ceb-4a00-84d4-283ac23cecd7" name="Changes" comment="ТелеграмБот 2 часть, рабочий вариант">
+      <change afterPath="$PROJECT_DIR$/images/1686796580317163574978685645909.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1686796580765-2718036822285878778.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1686796580898-8197113701516501838.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/FilterOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/function/ImageOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ImageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PhotoMessageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/RgbMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/received_image.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/received_image.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +55,18 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/Java/tgbot/src/main/java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\tgbot\src\main\java" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -82,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686724260916</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ТелеграмБот 2 часть, рабочий вариант">
+      <created>1686733418450</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686733418450</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ТелеграмБот 1 часть, рабочий вариант" />
-    <option name="LAST_COMMIT_MESSAGE" value="ТелеграмБот 1 часть, рабочий вариант" />
+    <MESSAGE value="ТелеграмБот 2 часть, рабочий вариант" />
+    <option name="LAST_COMMIT_MESSAGE" value="ТелеграмБот 2 часть, рабочий вариант" />
   </component>
 </project>
