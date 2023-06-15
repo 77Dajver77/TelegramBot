@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd4c6316-8ceb-4a00-84d4-283ac23cecd7" name="Changes" comment="ТелеграмБот 3 часть, рабочий вариант">
+    <list default="true" id="cd4c6316-8ceb-4a00-84d4-283ac23cecd7" name="Changes" comment="ТелеграмБот 4 часть, рабочий вариант, добавили кнопки.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1686796580317163574978685645909.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1686796580765-2718036822285878778.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1686796580898-8197113701516501838.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1686800266106-1773974674687648466.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1686800266524-5122755487203617554.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/16868002666648896075850728091429.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686796894417</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ТелеграмБот 4 часть, рабочий вариант, добавили кнопки.">
+      <created>1686800332904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686800332904</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +131,7 @@
     <MESSAGE value="ТелеграмБот 1 часть, рабочий вариант" />
     <MESSAGE value="ТелеграмБот 2 часть, рабочий вариант" />
     <MESSAGE value="ТелеграмБот 3 часть, рабочий вариант" />
-    <option name="LAST_COMMIT_MESSAGE" value="ТелеграмБот 3 часть, рабочий вариант" />
+    <MESSAGE value="ТелеграмБот 4 часть, рабочий вариант, добавили кнопки." />
+    <option name="LAST_COMMIT_MESSAGE" value="ТелеграмБот 4 часть, рабочий вариант, добавили кнопки." />
   </component>
 </project>
