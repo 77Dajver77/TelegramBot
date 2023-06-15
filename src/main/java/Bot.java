@@ -14,6 +14,7 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMar
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardButton;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.KeyboardRow;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
+import utils.ImageUtils;
 import utils.PhotoMessageUtils;
 //import java.io.*;
 import java.io.IOException;
@@ -79,7 +80,9 @@ public class Bot extends TelegramLongPollingBot {
     }
 
     private SendMediaGroup runPhotoFilter(Message message) {
-        ImageOperation operation = FilterOperation::greyScale;
+        final String caption= message.getCaption();
+        ImageOperation operation = ImageUtils.getOperation(caption);
+        if (operation == null) return null;
         List<File> files = getFilesByMessage(message);
         try {
             List<String> paths = PhotoMessageUtils.savePhotos(files, getBotToken());
