@@ -4,21 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd4c6316-8ceb-4a00-84d4-283ac23cecd7" name="Changes" comment="ТелеграмБот 8 часть, рабочий вариант.">
-      <change afterPath="$PROJECT_DIR$/images/16868259820795538621104987434090.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/1686825982545-2979488698032397073.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/1686825982718-5047607731622053956.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/1686826003123-3283131693223623195.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/16868260036723108821633957629591.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/1686826003807-6933284850574461230.jpeg" afterDir="false" />
+    <list default="true" id="cd4c6316-8ceb-4a00-84d4-283ac23cecd7" name="Changes" comment="ТелеграмБот 9 часть, рабочий вариант.">
+      <change afterPath="$PROJECT_DIR$/images/1686886041143-4108908922782946923.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1686886041299-634538680808567524.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1686886041461-2644774328022675226.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/16868860451981482305623371185216.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1686886045336103894777682684648.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/16868860454814197025346365126440.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/1686800266106-1773974674687648466.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/1686800266524-5122755487203617554.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/16868002666648896075850728091429.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/16868259820795538621104987434090.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/16868860361078565455969570894507.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1686825982545-2979488698032397073.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/1686886036560-8308964879711293863.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1686825982718-5047607731622053956.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/1686886036710-7488978270817622346.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1686826003123-3283131693223623195.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/16868260036723108821633957629591.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1686826003807-6933284850574461230.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/FilterOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/FilterOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/function/ImageOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/function/ImageOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ImageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ImageUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686823810317</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ТелеграмБот 9 часть, рабочий вариант.">
+      <created>1686826043431</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686826043431</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +176,18 @@
     <MESSAGE value="ТелеграмБот 6 часть, рабочий вариант, добавили кнопки и подписали их." />
     <MESSAGE value="ТелеграмБот 7 часть, рабочий вариант, добавили кнопки и подписали их." />
     <MESSAGE value="ТелеграмБот 8 часть, рабочий вариант." />
-    <option name="LAST_COMMIT_MESSAGE" value="ТелеграмБот 8 часть, рабочий вариант." />
+    <MESSAGE value="ТелеграмБот 9 часть, рабочий вариант." />
+    <option name="LAST_COMMIT_MESSAGE" value="ТелеграмБот 9 часть, рабочий вариант." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Bot.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
